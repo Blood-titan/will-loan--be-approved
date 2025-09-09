@@ -1,7 +1,6 @@
-numpy
+numpy==2.3.2
 joblib
-pandas
-scikit-learn
-scipy
-streamlit
-sqlite3
+pandas==2.3.2
+scikit-learn==1.7.1
+scipy==1.16.1
+streamlit==1.49.1
