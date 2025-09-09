@@ -178,7 +178,7 @@ if st.button("Submit"):
 
     st.write("Input Data:")
     st.dataframe(input_data)
-    model = joblib.load("model/loan_model.joblib")
+    model = joblib.load("Model/loan_model.joblib")
     prediction = model.predict(input_data)
 
     st.write("Prediction Result:")
