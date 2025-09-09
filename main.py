@@ -68,7 +68,7 @@ def insert_application(data):
     conn.close()
 
 
-st.title("Loan Prediction Input Form")
+st.title("will your loan be approved?")
 
 init_db()
 # Personal Information
