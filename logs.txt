@@ -1,0 +1,33 @@
+2025-09-11 21:19:35,626 table creation
+2025-09-11 21:19:35,626 db is created
+2025-09-11 21:19:35,626 crate db connection close
+2025-09-11 21:19:43,806 the predictied values is 0
+2025-09-11 21:19:55,860 the predictied values is 0
+2025-09-11 21:19:58,067 the predictied values is 0
+2025-09-11 21:20:39,191 the predictied values is 0
+2025-09-11 21:20:45,769 table creation
+2025-09-11 21:20:45,769 db is created
+2025-09-11 21:20:45,769 crate db connection close
+2025-09-11 21:20:49,598 table creation
+2025-09-11 21:20:49,598 db is created
+2025-09-11 21:20:49,599 crate db connection close
+2025-09-11 21:20:52,806 the predictied values is 0
+2025-09-11 21:20:52,807 insert the values to the local database
+2025-09-11 21:20:52,968 the predictied values is 0
+2025-09-11 21:20:52,969 insert the values to the local database
+2025-09-11 21:20:53,106 the predictied values is 0
+2025-09-11 21:20:53,106 insert the values to the local database
+2025-09-11 21:20:53,248 the predictied values is 0
+2025-09-11 21:20:53,248 insert the values to the local database
+2025-09-11 21:20:53,410 the predictied values is 0
+2025-09-11 21:20:53,411 insert the values to the local database
+2025-09-11 21:22:08,945 table creation
+2025-09-11 21:22:08,945 db is created
+2025-09-11 21:22:08,945 crate db connection close
+2025-09-11 21:22:14,087 table creation
+2025-09-11 21:22:14,087 db is created
+2025-09-11 21:22:14,088 crate db connection close
+2025-09-11 21:22:18,538 the predictied values is 0
+2025-09-11 21:22:18,538 insert the values to the local database
+2025-09-11 21:22:18,548 values inserted
+2025-09-11 21:22:18,555 connection closed in the insert functiopn

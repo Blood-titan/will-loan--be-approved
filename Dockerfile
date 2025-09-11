@@ -16,18 +16,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy app files
 COPY . .
 
-# Streamlit config (disable CORS/XSRF for Docker use)
-RUN mkdir -p ~/.streamlit && \
-    echo "\
-    [server]\n\
-    headless = true\n\
-    enableCORS = false\n\
-    enableXsrfProtection = false\n\
-    " > ~/.streamlit/config.toml
+# Expose port for FastAPI
+EXPOSE 8501
 
-# Expose Streamlit port
-EXPOSE 8098
-
-# Run Streamlit app
-ENTRYPOINT ["streamlit", "run"]
-CMD ["main.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# Run FastAPI app using uvicorn
+CMD ["uvicorn", "api_app:app", "--host", "0.0.0.0", "--port", "8501", "--reload"]
