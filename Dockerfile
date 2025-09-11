@@ -26,7 +26,7 @@ RUN mkdir -p ~/.streamlit && \
     " > ~/.streamlit/config.toml
 
 # Expose Streamlit port
-EXPOSE 8501
+EXPOSE 8098
 
 # Run Streamlit app
 ENTRYPOINT ["streamlit", "run"]
