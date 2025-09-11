@@ -9,10 +9,9 @@ wheels/
 
 # Virtual environments
 .venv
-logisticregresion.ipynb
 .mypy_cache
-
-
+.python-version
+.gitignore
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,jupyternotebooks,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,jupyternotebooks,windows
 
